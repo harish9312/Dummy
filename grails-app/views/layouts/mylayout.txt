@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!--// OPTIONAL & CONDITIONAL CSS FILES //-->   
+	<link rel="stylesheet" href="css/bootstrap.css?v=1">
+	
+  </head>
+  <body>
+		...
+	</aside>
+	<!-- aside end -->
+	<!-- main content -->
+	<div id="page-content">
+	</div>
+	<!-- end main content -->
+	<!-- aside right on high res -->
+	<aside class="center">
+		...
+	<script src="js/include/jquery.flot.cust.min.js"></script>			
+	<script src="js/include/jquery.flot.resize.min.js"></script>		
+	<script src="js/include/jquery.flot.tooltip.min.js"></script>		
+	<script src="js/include/jquery.flot.orderBar.min.js"></script> 	
+	<script src="js/include/jquery.flot.fillbetween.min.js"></script>	
+	<script src="js/include/jquery.flot.pie.min.js"></script> 	 
+  </body>
+</html>
