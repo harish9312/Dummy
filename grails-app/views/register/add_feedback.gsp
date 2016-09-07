@@ -22,6 +22,6 @@
 <p>Feedback:         <g:textArea required="true" class="form-control" value="${fbs.fb}" name="fb" /><br>
                      <g:submitButton name="login" class="btn btn-lg btn-success btn-block" value="Update" />
 </div>
-</fieldset>
+    </fieldset>
 </g:form>
 </html>

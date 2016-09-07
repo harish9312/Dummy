@@ -16,7 +16,7 @@ class LoginController {
     def index() { 
 
 
-    	def login = Feedback.findByUserNameAndPassword(params.username,params.password)
+    	def login = Users.findByUserNameAndPassword(params.username,params.password)
 
     	if(params.username!=null && params.password!=null)
     	{
@@ -28,7 +28,6 @@ class LoginController {
     		}
     		else
     		{	
-    			msg = "Invalid Login..!!! Please Try Again..!"
     			redirect(action:"index")
     		}
     	}

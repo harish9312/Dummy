@@ -9,7 +9,6 @@ class Feedback {
 	String courseDur
 	String totalFees
 	String userName
-	String password
 
 
     static constraints = {
